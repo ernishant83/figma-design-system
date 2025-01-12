@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build_tokens:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node.js environment
@@ -17,7 +17,7 @@ jobs:
         with:
           commit_message: build tokens
   copy_tokens:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: [build_tokens]
     steps:
       - uses: andstor/copycat-action@v3.2.4
