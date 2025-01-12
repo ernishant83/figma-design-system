@@ -1,11 +1,11 @@
 {
   "spacing-base": {
     "unit": {
-      "value": "8px",
+      "value": "9px",
       "type": "spacing"
     },
     "xs": {
-      "value": "8px",
+      "value": "9px",
       "type": "spacing"
     },
     "sm": {
