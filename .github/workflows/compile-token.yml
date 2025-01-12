@@ -25,10 +25,10 @@ jobs:
           personal_token: ${{ secrets.GH_PAT }}
           src_branch: main
           src_path: output/.
-          dst_owner: nyan-matt
-          dst_repo_name: stencil-storybook-token-demo
+          dst_owner: ernishant83
+          dst_repo_name: figma-design-system
           dst_branch: main
           dst_path: src/css/.
-          username: nyan-matt
+          username: ernishant83
           email: ernishant83@gmail.com
           commit_message: copy css tokens
