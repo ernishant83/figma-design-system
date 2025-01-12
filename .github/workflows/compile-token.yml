@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: andstor/copycat-action@v3.2.4
         with:
-          personal_token: ${{ secrets.figma-access-token }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           src_branch: main
           src_path: output/.
           dst_owner: ernishant83
