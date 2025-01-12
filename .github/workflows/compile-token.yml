@@ -1,4 +1,4 @@
-name: Generate css vars from tokens and copy
+name: Generate css vars from tokens and copied
 on: [push]
 
 jobs:
